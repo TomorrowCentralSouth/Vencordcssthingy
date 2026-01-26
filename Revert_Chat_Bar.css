@@ -73,4 +73,11 @@
 .typingGradientNotAtBottom__36d07 {
     mask: none !important;
 }
+.chatTypingGradientNotAtBottom__36d07{
+    background: unset;
+}
+.chatGradientBase__36d07{
+    display: none;
+} 
+
 
