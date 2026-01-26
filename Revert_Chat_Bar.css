@@ -73,3 +73,10 @@
 .typingGradientNotAtBottom__36d07 {
     mask: none !important;
 }
+/* another weird gradient maybe( can remove) */
+._36d072eab2b2e737-chatTypingGradientNotAtBottom{
+    background: unset;
+}
+._36d072eab2b2e737-chatGradientBase{
+    display: none;
+} */
