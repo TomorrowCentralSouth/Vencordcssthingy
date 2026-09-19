@@ -1,0 +1,29 @@
+/* Revert User area */ 
+[aria-label="User area"] {
+  border-radius: 0;
+  border: 0;
+  left: var(--custom-guild-list-width);
+  bottom: 0;
+  width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);
+  & [class*="wrapper"] [class*=container] { /* raises height of call info */
+    height: 82px;
+  }
+}
+
+.visual-refresh nav:has([data-list-id="guildsnav"]) {
+  margin-bottom: unset;
+}
+span[class*="timestampInline_"] > [aria-label^="Today at"]::before {
+    content: "Today at "
+}
+.visual-refresh div[class^="sidebar_"] section[class^="panels_"] {
+    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);
+    left: var(--custom-guild-list-width);
+    bottom: 0px;
+    border-radius: 0px;
+    border: none;
+}
+
+.visual-refresh nav[class*=guilds_] {
+  margin-bottom: unset;
+}
